@@ -1,0 +1,72 @@
+# Keil MDK
+*.uvprojx
+*.uvoptx
+*.uvguix.*
+*.lst
+*.sct
+*.axf
+*.hex
+*.bin
+*.elf
+./Objects/
+./Listings/
+./RTE/
+
+# STM32CubeMX
+STM32CubeMX.log
+.mxproject
+*.ioc.bak
+
+# IAR EWARM
+*.eww
+*.ewp
+*.ewd
+*.ewl
+*.out
+*.dep
+*.o
+./Debug/
+./Release/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.clang-format
+
+# Editors
+.DS_Store
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Build outputs
+build/
+dist/
+*.a
+*.lib
+*.so
+*.dylib
+
+# IDE
+.idea/
+*.pro.user
+.project
+.cproject
+.pydevproject
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.temp
+*.log
+*.swp
+*~
+
+# Documentation
+doc_doxygen/
+html/
+latex/
